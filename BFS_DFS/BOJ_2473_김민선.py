@@ -8,8 +8,6 @@ def search(solution):
     s = solution[0]+solution[left]+solution[right]
     res = [abs(s),solution[0],solution[left],solution[right]]
     for i in range(N-2):
-        if i > 0 and solution[i] == solution[i -1]:
-            continue
         left, right = i + 1, N - 1
         while left<right :
             s = solution[i]+solution[left]+solution[right]
