@@ -8,3 +8,4 @@ m_number = sys.stdin.readline().split()
 
 for i in m_number :
     sys.stdout.write("%d\n" % (1 if i in n_number else 0))
+    
