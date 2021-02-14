@@ -20,7 +20,7 @@ def check(start, arr):
         c = q.popleft()
         for i in arr[c] :
             if visited[i] == 0 :
-                visited[i] = True
+                visited[i] = 1
                 q.append(i)
                 cnt += 1
     if cnt > N//2 :
