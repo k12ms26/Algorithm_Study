@@ -24,4 +24,5 @@ building = [list(map(int,sys.stdin.readline().split())) for i in range(H)]
 visit = [[0 for j in range(W)] for i in range(H)]
 dx = [1, -1, 0, 0]
 dy = [0, 0, 1, -1]
+
 print(bfs())
