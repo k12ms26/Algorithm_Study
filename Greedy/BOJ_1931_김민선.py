@@ -12,7 +12,6 @@ time = sorted(time, key=lambda a : a[0])
 time = sorted(time, key=lambda a : a[1])
 
 for i, j in time :
-    print("{} {}".format(i, end_time))
     if i >= end_time :
         cnt += 1
         end_time = j
