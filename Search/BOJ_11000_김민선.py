@@ -1,4 +1,5 @@
 # 강의실 배정
+# https://github.com/Rurril/IT-DA-3rd/blob/master/study/Python/Week8/BOJ_11000_%EA%B0%95%EC%9D%98%ED%98%84.py
 import heapq
 import sys
 
