@@ -1,4 +1,5 @@
 #회의실 배정
+#https://pacific-ocean.tistory.com/236
 import sys
 
 N = int(sys.stdin.readline())
